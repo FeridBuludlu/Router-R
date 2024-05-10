@@ -1,0 +1,11 @@
+.Footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+
+.Footer span{
+    color: white;
+}
