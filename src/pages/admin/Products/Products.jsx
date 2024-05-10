@@ -1,8 +1,15 @@
-import React from 'react'
-
+import React, { useContext } from 'react'
+import Table from '../../../components/admin/Table/Table'
+import Loading from "../../Loading/Loading"
+import MainContext from '../../../context/context'
 const Products = () => {
-  return (
-    <div>Products</div>
+  const {data , loading } = useContext(MainContext)
+    return (
+    <div>
+    {
+      loading ? <Loading/> : <Table items={data}/>
+    }
+    </div>
   )
 }
 

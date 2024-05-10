@@ -6,7 +6,7 @@ import { Outlet } from 'react-router'
 const SiteRoot = () => {
   return (
     <React.Fragment>
-        <Header/>
+   <Header/>
         <Outlet />
         <Footer/>
     </React.Fragment>

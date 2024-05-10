@@ -3,6 +3,7 @@ import "./Loading.css";
 
 const Loading = () => {
   return (
+    <div className="body">
     <div class="boxes">
       <div class="box">
         <div></div>
@@ -28,7 +29,7 @@ const Loading = () => {
         <div></div>
         <div></div>
       </div>
-    </div>
+    </div></div>
   );
 };
 
